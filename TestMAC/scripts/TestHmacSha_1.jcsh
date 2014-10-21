@@ -1,0 +1,7 @@
+/select A0FFFFFFFF1010
+
+# key = ""
+/send 8010010000
+
+# message = ""
+/send 8012000000 fbdb1d1b18aa6c08324b7d64b71fb76370690e1d9000
