@@ -1,6 +1,6 @@
-# TestMAC
+# TestMAC Java Card Applet
 
-This Java Card applet support APDUs to test HMAC and CMAC. 
+This Java Card applet support APDUs to test HMAC (SHA-1, SHA-256) and CMAC (AES-128). 
 It uses Java Card 2.2.2.
 
 ## Supported APDU Commands
