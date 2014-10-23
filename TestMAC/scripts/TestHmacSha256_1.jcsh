@@ -1,7 +1,11 @@
+##
+# Script to test SHA-256 HMAC.
+##
+
 /select A0FFFFFFFF1010
 
 # key = ""
-/send 8010020000
+/send 8010020000 9000
 
 # message = ""
 /send 8012000000 b613679a0814d9ec772f95d778c35fc5ff1697c493715653c6c712144292c5ad9000

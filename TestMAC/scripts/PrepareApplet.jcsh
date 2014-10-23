@@ -1,0 +1,18 @@
+##
+# Script to load and install test applet.
+##
+
+/set-var pkgaid A0FFFFFFFF
+/set-var appaid A0FFFFFFFF1010
+/set-var instance-aid A0FFFFFFFF1010
+
+/card
+init-update
+ext-auth
+
+# Delete existing.
+-delete -r ${pkgaid}
+
+upload "MacApplet.cap"
+
+install -i ${instance-aid} -q C9#() ${pkgaid} ${appaid}
